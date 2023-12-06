@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>HomePage</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!------ js ------>
+<script src="js/jquery.min.js"> </script>
+<!------ js ------>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<!--- fonts --->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+<!--- fonts --->
+</head>
+<body>
+	<!--- header-top ---->
+	<div id="home" class="header-top">
+		<!--- container ---->
+		<div class="container">
+			<div class="header-logo">
+			<img src="images/vamos.png" alt="?" width="400" height="140"/>
+				</div>
+				<div class="header-sub-text">
+			<h2>欢迎来到我的主页</h2>
+			<p>This is the WebPage submitted by	ZengCheng for lesson.
+			<small>曾 | 函数</small></p>
+			</div>
+				<div class="header-top-grids">
+					<div class="col-md-4 about-nav4">
+						<a href="books.html" target="_blank"><span class="nav-icon4"> </span><label>Books</label></a>
+					</div>
+					<div class="col-md-4 about-nav4">
+						<a href="https://music.163.com/#/user/home?id=1711104550" target="_blank"><span class="nav-icon4"> </span><label>Blog</label></a>
+						<!-- <a href=""><span class="nav-icon5"> </span><label>Dormitory</label></a> -->
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+		<div class="header-bottom-grids">
+			<div class="col-md-6 left-grid text-left">
+					<div class="about-nav">
+						<a href="foods.html" target="_blank"><span class="nav-icon"> </span><label>Foods</label></a>
+					</div>
+					<div class="about-nav1">
+						<a href="songs.html" target="_blank"><span class="nav-icon1"> </span><label>Songs</label></a>
+					</div>
+					<div class="clearfix"> </div>				
+			</div>
+			<div class="col-md-6 right-grid text-right">
+					<div class="about-nav2">
+						<a href="games.html" target="_blank"><span class="nav-icon2"> </span><label>Games</label></a>
+					</div>
+					<div class="about-nav3">
+						<a href="contact.html" target="_blank"><span class="nav-icon3"> </span><label>Contact</label></a>
+					</div>
+					<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="header-top-grids">
+			<div class="col-md-4 about-nav4">
+				<a href="https://aurum114.github.io/504/" target="_blank"><span class="nav-icon4"> </span><label>Dormitory</label></a>
+			</div>
+			<div class="col-md-4 about-nav4">
+				<a href="https://kennny6.github.io/cs2304.github.io/" target="_blank"><span class="nav-icon4"> </span><label>Class</label></a>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!-- <div class="arrow-grid">
+			<div class="arrow">
+				<a href=""><span> Class </span></a>
+			</div>
+		</div> -->
+		</div>
+		<!--- container ---->
+	</div>
+<!--- //header-top ---->
+</body>
+</html>

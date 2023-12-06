@@ -1,0 +1,166 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Favorite Food</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!------ js ------>
+<script src="js/jquery.min.js"> </script>
+<!------ js ------>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<!--- fonts --->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+<!--- fonts --->
+</head>
+<body>
+<!--- header-bottom ---->
+<!-- Sticky Nav --->
+<div id="header-nav" class="header-nav">
+		 <div class="top-nav">		
+			 <nav>
+				<div class="logo">
+					<img src="images/logoe.png" width = "161" height = "38" alt="show logo here"/>
+				 </div>
+					<span class="menu"></span>
+					<ul>
+						<li class="active"><a href="index.html" target="_self">HOME</a></li>
+						<li><a href="books.html" target="_blank">BOOK</a></li>					
+						<li><a href="foods.html" target="_self">FOOD</a></li>
+						<li><a href="games.html" target="_blank">GAME</a></li>
+						<li><a href="songs.html" target="_blank">SONG</a></li>
+						<li><a href="http://yangyiheng.gitee.io/cs2201/" target="_blank">CLASS</a></li>
+						<li class="contact"><a href="contact.html" target="_blank">CONTACT</a></li>
+					<div class="clearfix"> </div>
+				</ul>
+			 </nav>
+		 </div>
+		  <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-nav ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+		 <!--script-nav-->
+		<script src="js/myscript.js"> </script>
+</div>
+<!-- top-nav -->
+<!-- Sticky Nav --->
+<!--- content ---->
+
+	<!--- content-team ---->
+	<div id="team" class="content-team">
+		<!--- container ---->
+		<div class="container">
+			<div class="content-team-text">
+				<h2>My <small>Food</small></h2>
+				<span> </span>
+			</div>
+			<div class="arrows">
+				<div class="left-arrow"> </div>
+				<div class="right-arrow"> </div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="row">
+				<!-- requried-jsfiles-for owl -->
+									<script>
+									$(document).ready(function() {
+									  $("#owl-demo1").owlCarousel({
+										items : 3,
+										lazyLoad : true,
+										autoPlay : true,
+										navigation : true,
+										navigationText :  true,
+										pagination : false,
+									  });
+									});
+									</script>
+				<!-- //requried-jsfiles-for owl -->
+				<!-- start content_slider -->
+				<div id="owl-demo1" class="owl-carousel">
+						
+					<div class="item">
+							<div class="team-left-grid">
+								<img src="images/rdcy.jpeg" width="250" height="232">
+								<h2>软兜长鱼</h2>
+								<p>口感软滑 鱼肉鲜美</p>
+							</div>
+					</div>
+					<div class="item">
+							<div class="team-left-grid">
+								<img src="images/pqdf.jpeg" width="250" height="232">
+								<h2>平桥豆腐</h2>
+								<p>清香可口 滑而不腻</p>
+							</div>
+					</div>
+					<div class="item">
+							<div class="team-left-grid">
+								<img src="images/sgcs.jpeg" width="250" height="232">
+								<h2>丝瓜茶馓</h2>
+								<p>上等贡品 口舌生花</p>
+							</div>
+					</div>
+					<div class="item">
+							<div class="team-left-grid">
+								<img src="images/qgry.jpeg" width="250" height="232">
+								<h2>钦工肉圆</h2>
+								<p>大口吃肉 快乐一天</p>
+							</div>
+					</div>
+					<div class="item">
+							<div class="team-left-grid">
+								<img src="images/mckr.jpeg" width="250" height="232">
+								<h2>梅菜扣肉</h2>
+								<p>肥而不腻 咸甜皆宜</p>
+							</div>
+					</div>
+					<div class="item">
+							<div class="team-left-grid">
+								<img src="images/xcqc.jpeg" width="250" height="232">
+								<h2>小炒青菜</h2>
+								<p>口味清甜 养生佳品</p>
+							</div>
+					</div>
+				</div>
+			</div>
+		<!--- container ---->
+		</div>
+	<!--- content-team ---->
+	</div>
+	<!--- content-skills ---->
+	<!--- content-skills ---->
+	<!--- content-services ---->
+	<div id="blog" class="content-services">
+		<!--- container ---->
+		<div class="container">
+			<!-- requried-jsfiles-for owl -->
+				<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

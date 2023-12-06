@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Me</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!------ js ------>
+<script src="js/jquery.min.js"> </script>
+<!------ js ------>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<!--- fonts --->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+<!--- fonts --->
+</head>
+<body>
+	
+<!--- header-bottom ---->
+<!-- Sticky Nav --->
+<div id="header-nav" class="header-nav">
+		 <div class="top-nav">		
+			 <nav>
+                <div class="logo">
+					<img src="images/logoe.png" width = "161" height = "38" alt="show logo here"/>
+				 </div>
+					<span class="menu"></span>
+					<ul>
+						<li class="active"><a href="index.html" target="_self">HOME</a></li>
+						<li><a href="books.html" target="_blank">BOOK</a></li>					
+						<li><a href="foods.html" target="_blank">FOOD</a></li>
+						<li><a href="games.html" target="_blank">GAME</a></li>
+						<li><a href="songs.html" target="_blank">SONG</a></li>
+						<li><a href="http://yangyiheng.gitee.io/cs2201/" target="_blank">CLASS</a></li>
+						<li class="contact"><a href="contact.html" target="_self">CONTACT</a></li>
+					<div class="clearfix"> </div>
+				</ul>
+			 </nav>
+		 </div>
+		  <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-nav ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+		 <!--script-nav-->
+		<script src="js/myscript.js"> </script>
+</div>
+<!-- top-nav -->
+<!-- Sticky Nav --->
+<!--- content ---->
+	<div class="content">
+		<!--- container ---->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 content-top-grid">					
+						<sub> </sub>
+						<h3>Address</h3>
+						<p>湖北省·武汉市 <br>
+                            华中科技大学 <br>
+                            沁苑学生公寓
+						</p>					
+				</div>
+				<div class="col-md-3 content-top-grid">					
+						<span> </span>
+						<h3>Mail</h3>
+						<p>251****485@qq.com
+						</p>					
+				</div>
+				<div class="col-md-3 content-top-grid">					
+						<small> </small>
+						<h3>Phone</h3>
+						<p>151****4157
+						</p>					
+				</div>
+				<div class="col-md-3 content-top-grid">			
+						<big> </big>
+						<h3>Belonging</h3>
+						<p>计算机科学与技术学院<br>
+                            计算机类 2304 班
+						</p>					
+				</div>
+			</div>
+		</div>
+		<!--- container ---->
+	</div>
+	
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

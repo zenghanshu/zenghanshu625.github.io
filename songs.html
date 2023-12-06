@@ -1,0 +1,139 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Favorite Songs</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!------ js ------>
+<script src="js/jquery.min.js"> </script>
+<!------ js ------>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<!--- fonts --->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+<!--- fonts --->
+</head>
+<body>
+	
+<!--- header-bottom ---->
+<!-- Sticky Nav --->
+<div id="header-nav" class="header-nav">
+		 <div class="top-nav">		
+			 <nav>
+                <div class="logo">
+					<img src="images/logoe.png" width = "161" height = "38" alt="show logo here"/>
+				 </div>
+					<span class="menu"></span>
+					<ul>
+						<li class="active"><a href="index.html" target="_self">HOME</a></li>
+						<li><a href="books.html" target="_blank">BOOK</a></li>					
+						<li><a href="foods.html" target="_blank">FOOD</a></li>
+						<li><a href="games.html" target="_blank">GAME</a></li>
+						<li><a href="songs.html" target="_self">SONG</a></li>
+						<li><a href="http://yangyiheng.gitee.io/cs2201/" target="_blank">CLASS</a></li>
+						<li class="contact"><a href="contact.html" target="_blank">CONTACT</a></li>
+					<div class="clearfix"> </div>
+				</ul>
+			 </nav>
+		 </div>
+		  <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-nav ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+		 <!--script-nav-->
+		<script src="js/myscript.js"> </script>
+</div>
+<!-- top-nav -->
+<!-- Sticky Nav --->
+	<!--- content-portfolio ---->
+		<!--- container ---->
+<div class="container">			
+	 <div id="portfolio" class="portfolio">
+		 <div class="port-text">
+				<h2>My <small>Songs</small></h2>
+				<span class="folio"> </span>
+			</div>
+	     <div id="portfoliolist">
+					<div class="portfolio word mix_all" data-cat="word" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/sbx.jpg" class="img-responsive" alt=""/></a>
+							<p>耍把戏</p><h3>阡灵均</h3>
+							<div class="tour-caption">
+							<span> </span>
+							</div>
+						</div>
+					</div>				
+					<div class="portfolio sweet mix_all" data-cat="sweet" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/gzqs.png" class="img-responsive" alt=""/></a>
+							<p>勾指起誓</p><h3>泠鸢yousa</h3>
+							<div class="tour-caption">
+							<span> </span>
+							</div>
+						</div>
+					</div>				
+                    <div class="portfolio others mix_all" data-cat="others" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/lzy.png" class="img-responsive" alt=""/></a>
+							<p>庐州月</p><h3>许嵩</h3>
+							<div class="tour-caption">
+							<span> </span>
+							</div>
+						</div>
+					</div>				
+                    <div class="portfolio others mix_all" data-cat="others" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/hpmusic.jpg" class="img-responsive" alt=""/></a>
+							<p>Flight of the Order of the Phoenix</p><h3>Nicholas Hooper</h3>
+							<div class="tour-caption">
+							<span> </span>
+							</div>
+						</div>
+					</div>	
+                    <div class="portfolio sweet mix_all" data-cat="sweet" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/zxxk.jpg" class="img-responsive" alt=""/></a>
+							<p>坠向星空</p><h3>泠鸢yousa</h3>
+							<div class="tour-caption">
+							<span> </span>
+							</div>
+						</div>
+					</div>	
+                    <div class="portfolio word mix_all" data-cat="word" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/wsz.jpg" class="img-responsive" alt=""/></a>
+							<p>伪善者</p><h3>金渔</h3>
+							<div class="tour-caption">
+							<span> </span>
+							</div>
+						</div>
+					</div>	
+		   <div class="clearfix"></div>	
+	  </div>
+	</div>
+</div> 
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Favorite Book</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!------ js ------>
+<script src="js/jquery.min.js"> </script>
+<!------ js ------>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+<!--- fonts --->
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+<!--- fonts --->
+</head>
+<body>
+
+<!--- header-bottom ---->
+<!-- Sticky Nav --->
+<div id="header-nav" class="header-nav">
+		 <div class="top-nav">		
+			 <nav>
+				<div class="logo">
+					<a href="#"><img src="images/logoe.png" width = "161" height = "38" alt="show logo here"/></a>
+				 </div>
+					<span class="menu"></span>
+					<ul>
+						<li class="active"><a href="index.html" target="_self">HOME</a></li>
+						<li><a href="books.html" target="_self">BOOK</a></li>					
+						<li><a href="foods.html" target="_blank">FOOD</a></li>
+						<li><a href="games.html" target="_blank">GAME</a></li>
+						<li><a href="songs.html" target="_blank">SONG</a></li>
+						<li><a href="http://yangyiheng.gitee.io/cs2201/" target="_blank">CLASS</a></li>
+						<li class="contact"><a href="contact.html" target="_blank">CONTACT</a></li>
+					<div class="clearfix"> </div>
+				</ul>
+			 </nav>
+		 </div>
+		  <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-nav ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+		 <!--script-nav-->
+		<script src="js/myscript.js"> </script>
+</div>
+<!-- top-nav -->
+<!-- Sticky Nav --->
+<!--- content ---->
+
+	<!--- content ---->
+	<!--- content-about ---->
+	<div id="about" class="content-about">
+		<!--- container ---->
+		<div class="container">
+			<div class="content-about-text">
+				<h2>Harry<small>Potter</small></h2>
+				<span> </span>
+			</div>
+			<div class="row">
+				<div class="col-md-6 content-about-grid-left">
+					<img src="images/harrypotter.jpg">
+				</div>
+				<div class="col-md-6 content-about-grid-right">					
+						<p>
+                            《哈利·波特》是英国作家 J. K. Rowling 于1997～2007年所著的魔幻文学系列小说，共7部。<br>
+                            其中前六部以霍格沃茨魔法学校为主要舞台，描写的是主人公——年轻的巫师学生哈利·波特在霍格沃茨前后六年的学习生活和冒险故事；第七本描写的是哈利·波特在第二次魔法界大战中在外寻找魂器并消灭伏地魔的故事。
+						</p>
+                        <p>
+                            美国华纳兄弟娱乐公司把这7集小说改拍成8部电影，前6集各一部，而第七集分成上下两部。哈利·波特电影系列是全球史上最卖座的电影系列，总票房收入达78亿美元。
+                        </p>
+                        <p>
+                            哈利·波特系列小说拥有各年龄层的爱好者，在有些国家甚至同时出版两个版本——封面设计适合青少年的儿童版和封面设计成熟稳重的成人版——尽管内容是完全一样的。
+                        </p>
+						<div class="learn">
+							<a href="https://baike.baidu.com/item/%E5%93%88%E5%88%A9%C2%B7%E6%B3%A2%E7%89%B9/238" target="_blank">Learn more</a>
+						</div>					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
